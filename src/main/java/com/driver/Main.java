@@ -2,7 +2,7 @@ package com.driver;
 
 public class Main {
   B objB = new B();
-  objB.meth();
+  System.out.print(objB.meth());
 }
 class A{
     public static String meth(){
